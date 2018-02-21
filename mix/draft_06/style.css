@@ -1,0 +1,68 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color: #FFB997;
+}
+
+h1{
+	font-family: sans-serif;
+	font-size: 1750%;
+	text-align: center;
+	line-height: 80%;
+	color: white;
+}
+
+h1:hover {
+	animation-name: gradient;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes gradient{
+	0% {color: white;}
+	50% {color: #FFB997;}
+	100% {color: white;}
+}
+
+.video {
+	position: absolute;
+	top: 20%;
+	left: 2%;
+}
+
+.video2 {
+	position: absolute;
+	top: 20%;
+	left: 54%;
+}
+
+.h {
+	position: absolute;
+}
+
+.bird1 {
+	position: absolute;
+	transform: rotate(240deg);
+}
+
+.bird2 {
+	position: absolute;
+	top: 15%;
+	left: 2%;
+}
+
+.bird3 {
+	position: absolute;
+	top: 18%;
+	left: 65%;
+	transform: scaleX(-1);
+}
+
+.music {
+	position: absolute;
+	top: 70%;
+	left: 2%;
+}

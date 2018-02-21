@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	overflow: hidden;
+}
+
+body{
+	background-color: #5C80BC;
+}
+
+
+
+.bird1{
+	position: absolute;
+	left: 77%;
+}
+
+.bird2 {
+	position: absolute;
+	animation-name: move;
+	animation-iteration-count: infinite;
+	animation-duration: 7s;
+}
+
+@keyframes move {
+	0% {top: -30%; left: -30%;}
+	100% {top: 80%; left: 200%;}
+}
+
+.video {
+	position: absolute;
+	top: 10%;
+
+}
+
+.bird3{
+	position: absolute;
+}

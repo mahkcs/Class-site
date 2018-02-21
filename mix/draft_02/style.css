@@ -1,0 +1,122 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	-webkit-animation-name: gradient;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-iteration-count: infinite;
+	animation-name: gradient;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes gradient {
+	0%	{background-color: #EF798A}
+	50% {background-color: #F7A9A8}
+	100% {background-color: #EF798A }
+}
+
+p {
+	font-family: 'Cutive Mono', monospace;
+	line-height: 80%;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 500%;
+    position: absolute;
+    -webkit-animation-name: move; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: white;
+}
+
+/* Standard syntax */
+@keyframes move {
+    0%  {left:22%; top:30px;}
+    50%	{left:30%; top:30px;}
+    100%{left:22%; top:30px;}
+}
+
+pre {
+	position: relative;
+	top: 110px;
+	left: -5px;
+	color: white;
+}
+
+h2 {
+	font-family: 'Aguafina Script', cursive;
+}
+
+.video {
+	position: absolute;
+	top: 25%;
+	left: 28%;
+}
+
+.shadow {
+	display: block;
+	background-color: #7DCFB6;
+	width: 560px;
+	height: 315px;
+	position: absolute;
+	top: 27%;
+	left: 27%;
+}
+
+.backtext {
+	width: 560px;
+	height: 315px;
+	position: absolute;
+	color: white;
+	font-family: monospace;
+	top: 28%;
+	left: 25%;
+}
+
+.music {
+	position: absolute;
+	top: 80%;
+	left: 38%;
+}
+
+.subtitle {
+	color: white;
+	position: absolute;
+	top: 85%;
+	left: 46%;
+}
+
+.bird1 {
+	position: absolute;
+	transform: scaleX(-1);
+	left: 27.8%;
+	top: 20%;
+}
+
+.bird2 {
+	position: absolute;
+	top: 83%;
+	left: 44%;
+	transform: rotate(-5deg);
+}
+
+.bird3 {
+	position: absolute;
+	animation-name: jack;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+/* Standard syntax */
+@keyframes jack {
+    0%  {left:22%; top:30px;}
+    50%	{left:72%; top:30px;}
+    100%{left:22%; top:30px;transform: scaleX(-1);}
+
+}

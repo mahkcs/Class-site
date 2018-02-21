@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+body {
+	background-color: black;
+}
+
+.video {
+	position: absolute;
+	top: 25%;
+	left: 28%;
+}
+
+h1 {
+	color: white;
+	font-family: 'Archivo Black';
+	font-size: 400%;
+	-webkit-animation-name: color; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes color {
+    0%   {color:white;}
+    50%  {color:#B3FFB3;}
+    100% {color:white;}
+}
+
+/* Standard syntax */
+@keyframes color {
+    0%   {color:white;}
+    50%  {color:#B3FFB3;}
+    100% {color:white;}
+}
+
+h2 {
+	color: white;
+	font-family: 'Archivo Black';
+	-webkit-animation-name: color; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes color {
+    0%   {color:white;}
+    50%  {color:#B3FFB3;}
+    100% {color:white;}
+}
+
+/* Standard syntax */
+@keyframes color {
+    0%   {color:white;}
+    50%  {color:#B3FFB3;}
+    100% {color:white;}s
+}
+
+.title {
+	position: absolute;
+	top: 30%;
+	left: 20%;
+}
+
+.subtitle {
+	position: absolute;
+	top: 40%;
+	left: 22%;
+}
+
+.music {
+	position: absolute;
+	top: 75%;
+	left: 38%;
+}
+
+.bird1 {
+	position: absolute;
+	top: 35%;
+	left: 20%;
+	transform: rotate(-10deg);
+}
+
+.bird2 {
+	position: absolute;
+	top: 28%;
+	left: 57.47%;
+}

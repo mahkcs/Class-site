@@ -1,0 +1,115 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	overflow: hidden;
+}
+
+body{
+	background-color: #E8E8E8;
+	animation: change 12s infinite;
+}
+
+@keyframes change {
+	0% {background-color: #E8E8E8;}
+	50% {background-color: #83858C;}
+	100% {background-color: #e8e8e8;}
+}
+
+p{
+	font-size: 10px;
+	color: blue;
+}
+
+h1{
+	font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 18em;
+    height: 30em;
+    margin: 1em auto;
+    overflow: hidden;
+    background: #E8E8E8;
+    position: relative;
+    box-sizing: border-box;
+    top: 5em;
+    animation: change 12s infinite;
+}
+
+.marquee {
+    top: 6em;
+    position: relative;
+    box-sizing: border-box;
+    animation: marquee 240s linear infinite;
+}
+
+@keyframes marquee {
+    0%   { top:   50em }
+    100% { top: -120em }
+}
+
+.music {
+	position: absolute;
+	top: 95%;
+}
+
+.video {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+}
+
+.video2 {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+}
+
+.video3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.toro {
+	position: absolute;
+	top: 68%;
+	left: 58.7%;
+	text-align: right;
+	line-height: 90%;
+}
+ 
+.bird1 {
+	position: absolute;
+	top: 1%;
+	left: -5px;
+	transform: scaleX(-1);
+	filter: grayscale(0.5);
+}
+
+.bird2 {
+	position: absolute;
+	animation-name: move;
+	animation-iteration-count: infinite;
+	animation-duration: 6s;
+	filter: grayscale(0.5);
+}
+
+@keyframes move {
+	0% {top: 20%; left: -20%;}
+	100% {top: 70%; left: 140%;}
+}
+
+.bird3 {
+	position: absolute;
+	top: 83%;
+	left: 90%;
+	transform: scaleX(-1);
+	filter: grayscale(0.5);
+}
+
+
+

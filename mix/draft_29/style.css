@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	overflow: hidden;
+}
+
+h1{
+	font-family: sans-serif;
+
+}
+
+.girl {
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	animation: girl 5s infinite;
+}
+
+.girl: hover{
+	animation: jehehe 1s infinite;
+}
+
+@keyframes jehehe{
+	0%{color: #078BFF;}
+	50%{color: white;}
+	100%{color: #078BFF;}
+
+}
+
+@keyframes girl{
+	0% {top: 40%; left: 35%;}
+	50% {top: 40%; left: 5%}
+	100% {top: 40%; left: 35%;}
+}
+}
+
+@keyframes toro{
+	0% {top: 45%; left: 40%;}
+	50% {top: 45%; left: 80%}
+	100% {top: 45%; left: 40%;}
+}
+
+.toro {
+	position: absolute;
+	top: 45%;
+	left: 40%;
+	animation: toro 5s infinite;
+}
+
+@keyframes toro{
+	0% {top: 45%; left: 40%;}
+	50% {top: 45%; left: 80%}
+	100% {top: 45%; left: 40%;}
+}
+
+.music {
+	position: absolute;
+	display: none;
+}
+
+.bird1 {
+	position: absolute;
+	transform: scaleX(-1);
+	top: 50%;
+	left: 0%;
+	animation: flash 12s infinite;
+}
+
+@keyframes flash {
+	0% {opacity: 1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+.bird2 {
+	position: absolute;
+	top: 0%;
+	left: 10%; 
+	animation: live 10s infinite;
+}
+
+@keyframes live {
+	0% {top: 0%; left: 10%}
+	30% {top: 50%; left: 60%; transform: scaleX(-1);}
+	75% {top: 60%; left: 30%; transform: scaleX(-1);}
+	100% {top: 0%; left: 10%;}
+}
+
+.bird3 {
+	position: absolute;
+	top: 30%;
+	left: 70%;
+	animation: flash 4s infinite;
+}
