@@ -114,5 +114,88 @@ h1{
 	filter: grayscale(0.5);
 }
 
+.grow { transition: all .2s ease-in-out; }
 
+.grow:hover { transform: scale(1.5) scaleX(-1); }
+
+.big {transition: all .5s ease-in-out;}
+.big:hover {transform: scale(1.3);}
+
+
+.rain {
+	position: absolute;
+	animation: fall 4s infinite;
+	left: 30%;
+}
+
+.likerain{
+	position: absolute;
+	animation: fall 4.4s infinite;
+	left: 35%;
+}
+
+.yourain {
+	position: absolute;
+	animation: fall 4.8s infinite;
+	left: 40%;
+}
+
+.rain2 {
+	position: absolute;
+	animation: fall 4.5s infinite;
+	left: 45%;
+}
+
+.likerain2 {
+	position: absolute;
+	animation: fall 4.7s infinite;
+	left: 50%;
+}
+
+.yourain2 {
+	position: absolute;
+	animation: fall 4.2s infinite;
+	left: 55%;
+}
+
+.rain3 {
+	position: absolute;
+	animation: fall 6s infinite;
+	left: 30%;
+}
+
+.likerain3{
+	position: absolute;
+	animation: fall 7.5s infinite;
+	left: 35%;
+}
+
+.yourain3 {
+	position: absolute;
+	animation: fall 5.8s infinite;
+	left: 40%;
+}
+
+.rain4 {
+	position: absolute;
+	animation: fall 7s infinite;
+	left: 45%;
+}
+
+.likerain4 {
+	position: absolute;
+	animation: fall 6.5s infinite;
+	left: 50%;
+}
+
+.yourain4 {
+	position: absolute;
+	animation: fall 5.4s infinite;
+	left: 55%;
+}
+
+@keyframes fall {
+	0%{top: -120%;}
+	100%{top: 150%;}
+}
 
