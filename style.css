@@ -126,72 +126,84 @@ h1{
 	position: absolute;
 	animation: fall 4s infinite;
 	left: 30%;
+	transform: rotate(-90deg);
 }
 
 .likerain{
 	position: absolute;
 	animation: fall 4.4s infinite;
 	left: 35%;
+	transform: rotate(-90deg);
 }
 
 .yourain {
 	position: absolute;
 	animation: fall 4.8s infinite;
 	left: 40%;
+	transform: rotate(-90deg);
 }
 
 .rain2 {
 	position: absolute;
 	animation: fall 4.5s infinite;
 	left: 45%;
+	transform: rotate(-90deg);
 }
 
 .likerain2 {
 	position: absolute;
 	animation: fall 4.7s infinite;
 	left: 50%;
+	transform: rotate(-90deg);
 }
 
 .yourain2 {
 	position: absolute;
 	animation: fall 4.2s infinite;
 	left: 55%;
+	transform: rotate(-90deg);
 }
 
 .rain3 {
 	position: absolute;
 	animation: fall 6s infinite;
 	left: 30%;
+	transform: rotate(-90deg);
 }
 
 .likerain3{
 	position: absolute;
 	animation: fall 7.5s infinite;
 	left: 35%;
+	transform: rotate(-90deg);
 }
 
 .yourain3 {
 	position: absolute;
 	animation: fall 5.8s infinite;
 	left: 40%;
+	transform: rotate(-90deg);
 }
 
 .rain4 {
 	position: absolute;
 	animation: fall 7s infinite;
 	left: 45%;
+	transform: rotate(-90deg);
 }
 
 .likerain4 {
 	position: absolute;
 	animation: fall 6.5s infinite;
 	left: 50%;
+	transform: rotate(-90deg);
 }
 
 .yourain4 {
 	position: absolute;
 	animation: fall 5.4s infinite;
 	left: 55%;
+	transform: rotate(-90deg);
 }
 
 @keyframes fall {
