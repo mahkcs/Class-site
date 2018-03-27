@@ -1,0 +1,54 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	background:black;
+	overflow: auto;
+	background-image: url(../_assets/background5.jpg);
+	background-size: cover;
+}
+
+img{
+	position: relative;
+	float:left;
+	width:8%;
+	padding:12.5px;
+	animation: spin 30s infinite linear;
+}
+
+@keyframes spin {
+	from {transform: rotateY(0deg);}
+	to {transform: rotateY(359deg);}
+}
+
+h1{
+	width: 50%;
+	text-align: center;
+	margin:35px auto;
+	padding:14px;
+	color:black;
+	background:white;
+	font-family: arial;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+select{
+	font-size:100px;
+	margin:14px;
+	position: relative;
+	left: 33%;
+}
+
+
+
+
+
+
+
+
+
+
+
