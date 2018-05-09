@@ -6,7 +6,7 @@
 html,body{
 	background:black;
 	overflow: auto;
-	background-image: url(../_assets/background.jpg);
+	background-image: url(../assets/background.jpg);
 	background-size: cover;
 }
 
