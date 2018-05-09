@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title></title>
+</head>
+<body>
+
+<!-- <script type="text/javascript">
+function changeImg(image){
+  var imghol = document.getElementById("imageHolder");
+  imghol.src = image;
+}
+</script>
+
+<div class="ADS2">
+    <h2>Vehicle Part</h2>
+    <p>Please select a part you wish to find;</p>
+    <div class="vertical_menu">
+        <ul>
+            <li><a id="FS" href="javascript:" onclick="changeImg('car.jpg');">Front Side</a></li>
+            <li><a id="RS" href="javascript:" onclick="changeImg('rear.png')">Rear Side</a></li>
+            <li><a id="S" href="javascript:" onclick="changeImg('caside.png')">Side</a></li>
+            <li><a id="US" href="javascript:" onclick="changeImg('under.png')">Under Side</a></li>
+            <li><a id="I" href="javascript:" onclick="changeImg('interior.png')">Interior</a></li>
+        </ul>
+    </div>
+    <div class="imageholder"><img id="imageHolder" /></div>
+</div> -->
+<script type="text/javascript">
+        $("d").on("click",function(){
+
+if($("d").hasClass("active")){
+    $("body").css("background","#005AB1");
+    $(this).removeClass("active");
+}else{
+    $("body").css("background","#F7364F");
+    $(this).addClass("active");}
+})
+    </script>
+
+
+<p class="d">hey</p>
+
+<!-- <style type="text/css">
+    img {
+        width: 20%;
+    }
+</style> -->
+
+<!-- <script type="text/javascript">
+    function displayImg(url) {
+    document.getElementById("change_img_target").src = url;
+}
+</script> -->
+<!-- 
+<a onclick="displayImg('assets/1.gif')">Link 1</a>
+<a onclick="displayImg('assets/2.gif')">Link 2</a>
+<a onclick="changeImg('pic3.png')">Link 3</a>
+<a onclick="changeImg('pic4.png')">Link 4</a>
+.....
+<div class="imageholder">
+<img id="change_img_target" />
+</div> -->
+
+</body>
+</html>

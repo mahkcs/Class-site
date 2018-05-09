@@ -1,0 +1,22 @@
+<h1 id="logo" class="run-animation">
+  Fancy Logo
+</h1>
+
+<style type="text/css">
+	.run-animation {
+  animation: my-fancy-animation 5s 1; 
+}
+</style>
+
+<script type="text/javascript">
+	$("#logo").click(function() {	
+	      	      
+ var el     = $(this),  
+     newone = el.clone(true);
+           
+ el.before(newone);
+        
+ $("." + el.attr("class") + ":last").remove();
+
+});
+</script>

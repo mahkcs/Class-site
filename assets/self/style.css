@@ -1,0 +1,56 @@
+x{
+	color: blue;
+	text-decoration: underline;
+}
+
+y{
+	color: pink;
+	text-decoration: underline;
+}
+
+z{
+	color: salmon;
+	text-decoration: underline;
+}
+
+w{
+	color: red;
+	text-decoration: underline;
+}
+
+body {
+	margin: 25px 50px;
+	text-align: left;
+	background-color: white;
+}
+
+p {
+	font-size: 25px;
+}
+
+img {
+	position: relative;
+	width: 25px;
+
+}
+
+@keyframes spin {
+	from {transform: rotateY(0deg);}
+	to {transform: rotateY(359deg);}
+}
+
+#hhhhh {
+	width: 15px;
+}
+
+.one {
+	animation: spin 10s infinite linear;
+}
+
+.two {
+	animation: spin 11s infinite linear;
+}
+
+.three {
+	animation: spin 9s infinite linear;
+}

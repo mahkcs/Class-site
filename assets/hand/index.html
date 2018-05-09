@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js"></script>
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<!-- <center><h1>TAKE<BR>A<BR>HAND</a></center></BR></BR></h1> -->
+
+
+
+<div class="draggable" id="mydiv">
+<img src="assets/index.png"></div> 
+</div> 
+
+<div class="draggable" id="mydiv1">
+<img src="assets/middle.png"></div>
+</div>
+
+<div class="draggable" id="mydiv2">
+<img src="assets/ring.png"></div>
+</div>
+
+<div class="draggable" id="mydiv3">
+<img src="assets/pinky.png"></div>
+</div>
+
+<div class="draggable" id="mydiv4">
+<img src="assets/thumb.png"></div>
+</div>
+
+<div class="draggable" id="mydiv5">
+<img src="assets/frontchop.png"></div>
+</div>
+
+<div class="draggable" id="mydiv12">
+<img src="assets/blackfrontchop.png"></div>
+</div>
+
+<div class="draggable" id="mydiv13">
+<img src="assets/blackthumb.png"></div>
+</div>
+
+<div class="draggable" id="mydiv14">
+<img src="assets/blackindex.png"></div>
+</div>
+
+<div class="draggable" id="mydiv15">
+<img src="assets/blackmiddle.png"></div>
+</div>
+
+<div class="draggable" id="mydiv16">
+<img src="assets/blackring.png"></div>
+</div>
+
+<div class="draggable" id="mydiv17">
+<img src="assets/blackpinky.png"></div>
+</div>
+
+<div class="draggable" id="mydiv18">
+<img src="assets/backblackchop.png"></div>
+</div>
+
+<div class="draggable" id="mydiv19">
+<img src="assets/backblackthumb.png"></div>
+</div>
+
+<div class="draggable" id="mydiv20">
+<img src="assets/backblackpinky.png"></div>
+</div>
+
+<div class="draggable" id="mydiv21">
+<img src="assets/backblackring.png"></div>
+</div>
+
+<div class="draggable" id="mydiv22">
+<img src="assets/backblackmiddle.png"></div>
+</div>
+
+<div class="draggable" id="mydiv23">
+<img src="assets/backblackindex.png"></div>
+</div>
+
+<!-- <script>
+//Make the DIV element draggagle:
+dragElement(document.getElementById(("mydiv")));
+dragElement(document.getElementById(("mydiv1")));
+lement(document.getElementById(("mydiv2")));
+dragElement(document.getElementById(("mydiv3")));
+dragElement(document.getElementById(("mydiv4")));
+dragElement(document.getElementById(("mydiv5")));
+lement(document.getElementById(("mydiv12")));
+dragElement(document.getElementById(("mydiv13")));
+dragElement(document.getElementById(("mydiv14")));
+dragElement(document.getElementById(("mydiv15")));
+lement(document.getElementById(("mydiv16")));
+dragElement(document.getElementById(("mydiv17")));
+dragElement(document.getElementById(("mydiv18")));
+dragElement(document.getElementById(("mydiv19")));
+lement(document.getElementById(("mydiv20")));
+dragElement(document.getElementById(("mydiv21")));
+dragElement(document.getElementById(("mydiv22")));
+dragElement(document.getElementById(("mydiv23")));
+tion dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    /* if present, the header is where you move the DIV from:*/
+ocument.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    /* otherwise, move the DIV from anywhere inside the DIV:*/
+lmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+ = e || window.event;
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    /* stop moving when mouse button is released:*/
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+</script> -->
+
+<script type="text/javascript">
+
+var nodeList = document.getElementsByClassName('draggable');
+ 
+  for(var i=0;i<nodeList.length;i++) {
+    var obj = nodeList[i];
+    obj.addEventListener('touchmove', function(event) {
+      var touch = event.targetTouches[0];
+      
+      // Place element where the finger is
+      event.target.style.left = touch.pageX + 'px';
+      event.target.style.top = touch.pageY + 'px';
+      event.preventDefault();
+    }, false);
+  }
+
+</script>
+
+
+</body>
+</html>

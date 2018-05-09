@@ -1,0 +1,28 @@
+img {
+	width: 10%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+
+	/*position: relative;
+	display: flex;
+	margin: 40px auto 0 auto;
+    align-items: center;
+    justify-content: space-around;*/
+}
+
+h1 {
+	font-family: arial;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+
+	/*margin: 60% auto 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;*/
+}

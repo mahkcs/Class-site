@@ -1,0 +1,77 @@
+body {
+	background-color: white;
+}
+
+p {
+	font-family: Verdana;
+}
+
+a {
+	font-family: Verdana;
+}
+
+img {
+	width: 50%;
+	height: 50%;
+}
+#mydiv {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+#mydiv1 {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+}
+
+#mydiv2 {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+}
+
+#mydiv3 {
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+}
+
+#mydiv4 {
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+}
+
+#mydiv5 {
+    position: absolute;
+    z-index: 6;
+    text-align: center;
+}
+
+#mydivheader {
+    cursor: move;
+   }
+
+#mydivheader1 {
+    cursor: move;
+   }
+
+#mydivheader2 {
+    cursor: move;
+   }
+
+#mydivheader3 {
+    cursor: move;
+   }
+
+#mydivheader4 {
+    cursor: move;
+   }   
+
+#mydivheader5 {
+    cursor: move;
+   }
+
+}

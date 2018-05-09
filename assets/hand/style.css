@@ -1,0 +1,230 @@
+body {
+	background-color: pink;
+    overflow: hidden;
+}
+
+h1{
+    font-family: arial;
+}
+p {
+	font-family: Verdana;
+}
+
+a {
+	font-family: Verdana;
+}
+
+img {
+	width: 50%;
+	height: 50%;
+}
+
+#mydiv {
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 37.1%;
+}
+
+#mydiv1 {    
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 28%;
+}
+
+#mydiv2 {    
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 23%;
+}
+
+#mydiv3 {    
+    text-align: center;
+    position: absolute;
+    top: 14%;
+    left: 19.3%;
+}
+
+#mydiv4 {    
+    text-align: center;
+    position: absolute;
+    top:41.8%;
+    left: 48.5%;
+}
+
+#mydiv5 {    
+    text-align: center;
+    position: absolute;
+    top: 32%;
+    left: 20%;
+}
+
+#mydiv6 {    
+    text-align: center;
+    position: absolute;
+    top: 16.7%;
+    left: 49.9%;
+}
+
+
+#mydiv12 {    
+    text-align: center;
+    position: absolute;
+    top: 43%;
+    left: 2%;
+}
+
+#mydiv13 {    
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 25.5%;
+}
+
+#mydiv14 {    
+    text-align: center;
+    position: absolute;
+    top: 22.2%;
+    left: 22.5%;
+}
+
+#mydiv15 {    
+    text-align: center;
+    position: absolute;
+    top: 15.4%;
+    left: 18%;
+}
+
+#mydiv16 {    
+    text-align: center;
+    position: absolute;
+    top: 20.2%;
+    left: 14%;
+}
+
+#mydiv17 {    
+    text-align: center;
+    position: absolute;
+    top: 30.2%;
+    left: 6.9%;
+}
+
+#mydiv18 {    
+    text-align: center;
+position: absolute;
+    top:31%;
+    left: 54%;
+}
+
+#mydiv19 {    
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left:41%;
+}
+
+#mydiv20 {    
+    text-align: center;
+    position: absolute;
+    top: 24.5%;
+    left: 77.2%;
+}
+
+#mydiv21 {    
+    text-align: center;
+    position: absolute;
+    top: 3.4%;
+    left: 72.2%;
+}
+
+#mydiv22 {    
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 64.5%;
+}
+
+#mydiv23 {    
+    text-align: center;
+    position: absolute;
+    top: 4%;
+    left: 58.5%;
+}
+
+#mydivheader {
+    cursor: move;
+   }
+
+#mydivheader1 {
+    cursor: move;
+   }
+
+#mydivheader2 {
+    cursor: move;
+   }
+
+#mydivheader3 {
+    cursor: move;
+   }
+
+#mydivheader4 {
+    cursor: move;
+   }   
+
+#mydivheader5 {
+    cursor: move;
+   }
+
+#mydivheader12 {
+    cursor: move;
+   }
+
+#mydivheader13 {
+    cursor: move;
+   }
+
+#mydivheader14 {
+    cursor: move;
+   }
+
+#mydivheader15 {
+    cursor: move;
+   }
+
+#mydivheader16 {
+    cursor: move;
+   }
+
+#mydivheader17 {
+    cursor: move;
+   }
+
+#mydivheader18 {
+    cursor: move;
+   }
+
+#mydivheader19 {
+    cursor: move;
+   }
+
+#mydivheader20 {
+    cursor: move;
+   }
+
+#mydivheader21 {
+    cursor: move;
+   }
+
+#mydivheader22 {
+    cursor: move;
+   }
+
+#mydivheader23 {
+    cursor: move;
+   }
+
+.draggable {
+    position:absolute;
+}

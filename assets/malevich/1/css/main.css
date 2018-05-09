@@ -1,0 +1,37 @@
+ #box1 {
+        width: 400px;
+        height: 400px;
+        background-color: pink;
+        position: relative;
+        left: 35%;
+        top: 100px;
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+        transform: rotate(0deg);
+    }  
+  
+  #box2 {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            position: absolute;
+            left: 200px;
+            top: 50%;
+  }
+
+    #box3 {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            position: absolute;
+            left: 200px;
+            top: 15%;
+  }
+
+      #box4 {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            position: relative;
+            left: 35%
+  }

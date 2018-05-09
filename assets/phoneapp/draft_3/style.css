@@ -1,0 +1,12 @@
+img {
+	width: 30%;
+	height: 30%;
+}
+
+#mydiv {
+	position: absolute;
+}
+
+#mydivheader {
+    cursor: move;
+   }

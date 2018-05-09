@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+	<script src="pulltorefresh.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<title>bugmane</title>
+</head>
+<h1>bugsite</h1>
+<body>
+	<img src="assets/bug.gif">
+
+<script type="text/javascript">
+		$("h1").on("click",function(){
+
+if($("h1").hasClass("active")){
+	$("body").css("background","#005AB1");
+	$(this).removeClass("active");
+}else{
+	$("body").css("background","#F7364F");
+	$(this).addClass("active");}
+})
+	</script>
+
+</body>
+</html>

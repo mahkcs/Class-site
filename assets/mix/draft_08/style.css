@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background: #e8e8e8;
+}
+
+.bird3{
+	float: left;
+}
+
+h1{
+	font-size: 3000%;
+	font-stretch: ultra-expanded;
+	font-family: sans-serif;
+	line-height: 80%;
+}
+
+.girl{
+	position: absolute;
+	left: 4%;
+}
+
+.bird2{
+	float: right;
+}
+
+.video{
+	position: absolute;
+	top: 80%;
+	left: 40%;
+}
+
+.music {
+	position: absolute;
+	display: none;
+	top: 68%;
+	left: 33%;
+}

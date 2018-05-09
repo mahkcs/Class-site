@@ -1,0 +1,134 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	background:black;
+	overflow: auto;
+	background-image: url(../_assets/background2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+img{
+	position: relative;
+	float:left;
+	width:14%;
+	animation: spin 30s infinite linear;
+	border: 0.5px white solid;
+	background-color: rgba(225,0,0,0.4) ;
+
+}
+
+@keyframes spin {
+	from {transform: rotateY(0deg);}
+	to {transform: rotateY(359deg);}
+}
+
+h1{
+	width: 50%;
+	text-align: center;
+	margin:35px auto;
+	padding:14px;
+	color:black;
+	background:white;
+	font-family: arial;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+select{
+	font-size:10px;
+	margin:14px;
+	position: relative;
+	left: 46%;
+}
+
+p{
+    border: 0.5px white solid;
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(255,0,0,0.4);
+    color: white;
+    font-family: verdana;
+    font-size: 8px;
+}
+
+
+.row1 {
+    display: flex;
+    margin: 40px auto 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+       
+    }
+
+.row2 {
+    display: flex;
+    margin: 40px auto 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+       
+    }
+
+.row3 {
+    display: flex;
+    margin: 40px auto 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+       
+    }
+
+.row4 {
+    display: flex;
+    margin: 40px auto 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+       
+    }
+
+.row5 {
+    display: flex;
+    margin: 40px auto 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+       
+    }
+
+.row6 {
+    display: flex;
+    margin: 40px auto 40px auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+       
+    }
+
+.about {
+    display: flex;
+    margin: 40px 30% 50px 30%;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+.close {
+	animation: spin 23s infinite linear;
+}
+
+.medium {
+	animation: spin 25s infinite linear;
+}
+
+.far {
+	animation: spin 27s infinite linear;
+}
+
+.farther {
+    animation: spin 10s infinite linear;
+}

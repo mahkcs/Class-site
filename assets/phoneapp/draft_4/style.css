@@ -1,0 +1,169 @@
+body {
+	background-color: pink;
+    overflow: hidden;
+}
+
+h1{
+    font-family: arial;
+}
+p {
+	font-family: Verdana;
+}
+
+a {
+	font-family: Verdana;
+}
+
+img {
+	width: 50%;
+	height: 50%;
+}
+
+#mydiv {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    top: 46.2%;
+    left: 27.6%;
+}
+
+#mydiv1 {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    top: 43%;
+    left: 23.4%;
+}
+
+#mydiv2 {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    top: 46.2%;
+    left: 21.3%;
+}
+
+#mydiv3 {
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    top: 53.3%;
+    left: 19.80%;
+}
+
+#mydiv4 {
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    top: 66.7%;
+    left: 32.7%;
+}
+
+#mydiv5 {
+    position: absolute;
+    z-index: 0;
+    text-align: center;
+    top: 62%;
+    left: 20%;
+}
+
+#mydiv6 {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    top: 47.1%;
+    left: 49.9%;
+}
+
+#mydiv7 {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    top: 45.1%;
+    left: 52.5%;
+}
+
+#mydiv8 {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    top: 47.1%;
+    left: 56.2%;
+}
+
+#mydiv9 {
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    top: 54.3%;
+    left: 60.8%;
+}
+
+#mydiv10 {
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    top: 68.9%;
+    left: 46.8%;
+}
+
+#mydiv11 {
+    position: absolute;
+    z-index: 0;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+}
+
+#mydivheader {
+    cursor: move;
+   }
+
+#mydivheader1 {
+    cursor: move;
+   }
+
+#mydivheader2 {
+    cursor: move;
+   }
+
+#mydivheader3 {
+    cursor: move;
+   }
+
+#mydivheader4 {
+    cursor: move;
+   }   
+
+#mydivheader5 {
+    cursor: move;
+   }
+
+#mydivheader6 {
+    cursor: move;
+   }
+
+#mydivheader7 {
+    cursor: move;
+   }
+
+#mydivheader8 {
+    cursor: move;
+   }
+
+#mydivheader8 {
+    cursor: move;
+   }
+
+#mydivheader9 {
+    cursor: move;
+   }   
+
+#mydivheader10 {
+    cursor: move;
+   }
+
+#mydivheader11 {
+    cursor: move;
+   }
+}

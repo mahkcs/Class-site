@@ -1,0 +1,313 @@
+body {
+	background-color: pink;
+    overflow: hidden;
+}
+
+h1{
+    font-family: arial;
+}
+p {
+	font-family: Verdana;
+}
+
+a {
+	font-family: Verdana;
+}
+
+img {
+	width: 50%;
+	height: 50%;
+}
+
+#mydiv {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    top: 46.2%;
+    left: 27.6%;
+}
+
+#mydiv1 {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    top: 43%;
+    left: 23.4%;
+}
+
+#mydiv2 {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    top: 46.2%;
+    left: 21.3%;
+}
+
+#mydiv3 {
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    top: 53.3%;
+    left: 19.80%;
+}
+
+#mydiv4 {
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    top: 66.7%;
+    left: 32.7%;
+}
+
+#mydiv5 {
+    position: absolute;
+    z-index: 0;
+    text-align: center;
+    top: 62%;
+    left: 20%;
+}
+
+#mydiv6 {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    top: 47.1%;
+    left: 49.9%;
+}
+
+#mydiv7 {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    top: 45.1%;
+    left: 52.5%;
+}
+
+#mydiv8 {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    top: 47.1%;
+    left: 56.2%;
+}
+
+#mydiv9 {
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    top: 54.3%;
+    left: 60.8%;
+}
+
+#mydiv10 {
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    top: 68.9%;
+    left: 46.8%;
+}
+
+#mydiv11 {
+    position: absolute;
+    z-index: 0;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+}
+
+#mydiv12 {
+    position: absolute;
+    z-index: 0;
+    text-align: center;
+    top: 73%;
+    left: 5%;
+}
+
+#mydiv13 {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    top: 78.5%;
+    left: 15.5%;
+}
+
+#mydiv14 {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    top: 63%;
+    left: 14%;
+}
+
+#mydiv15 {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    top: 60%;
+    left: 12.2%;
+}
+
+#mydiv16 {
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    top: 62%;
+    left: 10.3%;
+}
+
+#mydiv17 {
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    top: 67.5%;
+    left: 7.1%;
+}
+
+#mydiv18 {
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    top: 71%;
+    left: 74%;
+}
+
+#mydiv19 {
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    top: 77.6%;
+    left: 69%;
+}
+
+#mydiv20 {
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    top: 65.7%;
+    left: 84.9%;
+}
+
+#mydiv21 {
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    top: 58%;
+    left: 83.2%;
+}
+
+#mydiv22 {
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    top: 55.5%;
+    left: 79.659%;
+}
+
+#mydiv23 {
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    top: 58.3%;
+    left: 76.6%;
+}
+
+#mydivheader {
+    cursor: move;
+   }
+
+#mydivheader1 {
+    cursor: move;
+   }
+
+#mydivheader2 {
+    cursor: move;
+   }
+
+#mydivheader3 {
+    cursor: move;
+   }
+
+#mydivheader4 {
+    cursor: move;
+   }   
+
+#mydivheader5 {
+    cursor: move;
+   }
+
+#mydivheader6 {
+    cursor: move;
+   }
+
+#mydivheader7 {
+    cursor: move;
+   }
+
+#mydivheader8 {
+    cursor: move;
+   }
+
+#mydivheader8 {
+    cursor: move;
+   }
+
+#mydivheader9 {
+    cursor: move;
+   }   
+
+#mydivheader10 {
+    cursor: move;
+   }
+
+#mydivheader11 {
+    cursor: move;
+   }
+
+#mydivheader12 {
+    cursor: move;
+   }
+
+#mydivheader13 {
+    cursor: move;
+   }
+
+#mydivheader14 {
+    cursor: move;
+   }
+
+#mydivheader15 {
+    cursor: move;
+   }
+
+#mydivheader16 {
+    cursor: move;
+   }
+
+#mydivheader17 {
+    cursor: move;
+   }
+
+#mydivheader18 {
+    cursor: move;
+   }
+
+#mydivheader19 {
+    cursor: move;
+   }
+
+#mydivheader20 {
+    cursor: move;
+   }
+
+#mydivheader21 {
+    cursor: move;
+   }
+
+#mydivheader22 {
+    cursor: move;
+   }
+
+#mydivheader23 {
+    cursor: move;
+   }
+}
